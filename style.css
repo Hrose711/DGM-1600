@@ -1,31 +1,45 @@
 * {
     margin: 0;
-    color: #fff;
+    color: #F0F0F2;
 
 }
 
 body {
-    background-color: #3C4C59;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #64758C;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 /*header*/
 header{
     text-align: center;
-    margin: .25rem;
+    margin: .75rem;
 }
 header img{
     height: 7rem;
 }
+header h1 {
+   justify-content: flex;
+   padding-bottom: 1.5%;
+   font-size: 30px;
+}
+
+.titleInfo {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    max-height: 7rem;
+    align-items: center;
+    
+}
+
  /*main*/
 main {
     width:960px;
     margin: 0 auto;
 }
-section{
-    border: 1px solid #D3D923
-;
-}
+
 #bio {
     display: flex;
 }
@@ -39,30 +53,50 @@ section{
 }
 
 .bio-image {
-    height: 185px;
+    height: 206px;
 }
 
 .nameDate {
     display: flex;
     justify-content: space-between;
+    padding: 8px;
+    padding-bottom: 1px;
+    font-size: 25px;
 }
 
 .blueTextFormat {
     font-size: 1.3rem;
-    color: #b0b0ee
+    color: #D99696;
 }
 
 .grayBox {
-    background-color: gray;
+    background-color: #3E3E40;
+    opacity: 80%;
     padding: .5rem;
+    text-align: left;
 }
 
 h4 {
     margin-bottom: .75rem;
+    font-size: 18px;
+}
+
+.react {
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 13px;
 }
 
 ul {
+    padding-bottom: 18px;
     padding-left: 12px;
+    font-size: 13px;
 }
 
 #tech {
@@ -71,12 +105,44 @@ ul {
     justify-content: space-between;
 }
 
-#tech img {
-    height: 160px;
+#learn {
+    padding: .75rem;
+    
+}
+
+#learn h2 {
+    padding-bottom: 2.5%;
+}
+
+
+#learning p{
+    padding-bottom: 5px;
+}
+
+.greyBox {
+    background-color: #3E3E40;
+    opacity: 80%;
+    padding: .7rem;
+    text-align: left;
+    padding-bottom: 1.5rem;
+}
+
+ figure > img {
+    max-height: 140px;
+    max-width: 150px;
+ }
+
+figure {
+width: 150px;
+text-align: center;
 }
 
 figcaption {
     text-align: center;
+    background-color: rgba(0,0,0,0.4);
+    max-width: 150px;
+    position: relative;
+    top: -30px;
 }
 
 #learn {
@@ -85,4 +151,8 @@ figcaption {
 /*footer*/
  footer {
     text-align: center;
- }
+    font-size: 12px;
+    position: relative;
+    
+}
+
